@@ -1,5 +1,5 @@
 body{
-    background-color: #0a0a0a;
+    /* background-color: #0a0a0a; */
     height: 100vh;
     overflow-x: hidden !important;
     scroll-behavior: smooth !important;
@@ -13,7 +13,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 3;
-  border-bottom: 0.5px solid #007bff;
+  border-bottom: 0.5px solid #17a2b8;
   
 }
 .header ul{
@@ -28,6 +28,7 @@ body{
     padding: 20px;
     border-right: 1px solid #ccc;
     text-decoration: none;
+    color: #17a2b8;
 }
 .header ul a:last-child{
     
@@ -259,6 +260,9 @@ height: 100vh;
 .details{
     width: 20rem;
     margin: auto;
+}
+.bg-light-blue{
+    background-color:#17a2b8;    
 }
 
 @media screen and (min-width: 48em){
