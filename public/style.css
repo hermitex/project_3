@@ -153,6 +153,17 @@ padding-left: 20px;
 #overlay{
     display: none;
 }
+button{
+    outline: none;
+}
+.block{
+    display: block;
+    margin: auto;
+
+}
+.block:hover{
+    background-color: #28a745;
+}
 
 
 @media screen and (min-width: 48em){
@@ -185,8 +196,8 @@ padding-left: 20px;
         padding: 1rem;               
         width: 20rem;
         height: 20rem;
-        background-image: url("../images/film-show.jpg");
-        background-position: center;
+        background-image: url("../images/movie-out.jpg");
+        background-position: fixed;
         background-repeat: no-repeat;
         background-size: cover;  
         
@@ -202,17 +213,17 @@ padding-left: 20px;
         margin: auto;
         position: absolute; /* Sit on top of the page content */
         /* display: none; Hidden by default */
-        width: 100%; /* Full width (cover the whole page) */
-        height: 100%; /* Full height (cover the whole page) */
+        width: 20rem; /* Full width (cover the whole page) */
+        height:20rem; /* Full height (cover the whole page) */
         top: 0;      
         right: 0;       
         background-color: #0a0a0a;
-        opacity: 0.5;       
+        opacity: 0.85;       
     }
     #overlay p{
         display: flex;     
-        background-color: #0f0f0f;
-        opacity: .95;
+        background-color: #0a0a0a !important;
+        opacity: 0.9 !important;
         width: 100%; /* Full width (cover the whole page) */
         height: 100%;
         margin: auto;
@@ -221,7 +232,7 @@ padding-left: 20px;
         justify-content:center;
         text-align: center;
         margin: auto;
-        color: yellow;
+        /* color: yellow; */
        
     }
   
