@@ -25,7 +25,7 @@ body{
 }
 .header ul a{
     display: block;
-    padding: 20px;
+    padding: 10px;
     border-right: 1px solid #ccc;
     text-decoration: none;
     color: #17a2b8;
