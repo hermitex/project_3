@@ -232,8 +232,34 @@ a.block{
 height: 100vh;
 /* margin-top: 1rem; */
 }
+#festival-info{
+    height: 100vh;
+    width: 100vw;
+}
+.films{
+    width: 100%;    
+  margin: auto;
+}
+.films>div{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;  
+   
+}
 
+.films img{
+    width: 20rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
 
+.details{
+    width: 20rem;
+    margin: auto;
+}
 
 @media screen and (min-width: 48em){
     .header li{
