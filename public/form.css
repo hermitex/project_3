@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     background-color: #0a0a0a;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .logo img{
     width: 5.5rem;

@@ -3,7 +3,7 @@ body{
     height: 100vh;
     overflow-x: hidden !important;
     scroll-behavior: smooth !important;
-  
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .logo img{
     width: 5.5rem;
