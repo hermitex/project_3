@@ -328,6 +328,13 @@ margin: auto;
    color: green;
    font-size: 2rem;
  }
+ .footer #dif{
+     padding-top: 0.5rem;
+color: #17a2b8;
+ }
+ #sign{
+     height: 5rem;
+ }
 /* footer */
 @media screen and (min-width: 48em){
     .header li{
