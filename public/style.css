@@ -199,7 +199,7 @@ a.block{
     justify-content: center;
     align-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 1rem !important;
   }
   #countdown div {
     padding: 5px 5px;
@@ -209,7 +209,7 @@ a.block{
   }
   #countdown span {
     display: block;
-    font-size: 25px;
+    font-size: 1.1rem !important;
   }
   #countdown div:first-child {
     background: #17a2b8;
