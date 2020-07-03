@@ -16,7 +16,7 @@ body{
     /* height: 100%; */
     z-index: 3;
   border-bottom: 0.5px solid #17a2b8;
-  
+  overflow: hidden;
 }
 .header ul{
     margin: 0;
