@@ -303,7 +303,7 @@ margin: auto;
     opacity: 0.95;
     border-top: 0.1px solid #17a2b8;
     padding: 0;
-   
+   z-index: 10;
 }
 .footer ul{
     display: flex;
