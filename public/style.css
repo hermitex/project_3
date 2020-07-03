@@ -271,7 +271,7 @@ margin: auto;
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    margin-bottom: 5rem !important;
+   
 }
 
 
@@ -292,6 +292,11 @@ margin: auto;
 
 .bg-light-blue{
     background-color:#17a2b8;    
+}
+.side-content{
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 3rem !important;
 }
 /* footer */
 .footer{
