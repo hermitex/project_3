@@ -148,7 +148,7 @@ padding-left: 20px;
     transition: all 0.5s ease-in-out; 
 }
 #image:hover{ 
-    border: 0.01px solid #007bff;
+    border: 0.01px solid #17a2b8;
     /* border: 0.01px solid #28a745; */
 }
 #image img{
@@ -158,6 +158,10 @@ padding-left: 20px;
 #overlay{
     display: none;
    
+}
+#side{
+    color: yellow
+    /* background-color: #0a0a0a; */
 }
 button{
     outline: none;
@@ -319,7 +323,7 @@ margin: auto;
         right: 0 !important;
         padding: 1rem;               
         width: 20rem;
-        height: 20rem;
+        height: 15rem;
         background-image: url("../images/watchout.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -338,11 +342,11 @@ margin: auto;
         position: absolute; /* Sit on top of the page content */
         /* display: none; Hidden by default */
         width: 20rem; /* Full width (cover the whole page) */
-        height:20rem; /* Full height (cover the whole page) */
+        height:15rem; /* Full height (cover the whole page) */
         top: 0;      
         right: 0;       
         background-color: #0a0a0a;
-        opacity: 0.7;       
+        opacity: 0.75;       
     }
     #overlay p{
         display: flex;     
