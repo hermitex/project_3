@@ -177,11 +177,11 @@ a.block{
 }
 /* COUNTER */
 .inner {
-    /* background: rgba(0, 0, 0, 0.8); */
+    background: rgba(0, 0, 0, 0.8);
     width: 100%;
-    height: 100%;
+    height:auto;
     position: absolute;
-    top: 1.5rem;
+    top: 1rem;
     left: 0;
     text-align: center;
     padding-top: 50px;
@@ -225,9 +225,7 @@ a.block{
       background: none;
       margin: 8px;
     }
-    .inner {
-      height: 100vh;
-    }
+    
   }
   
 /* COUNTER */
@@ -360,6 +358,9 @@ margin: auto;
         margin: auto;
         /* color: yellow; */
        
+    }
+    .inner{
+        background: none;
     }
 
     .films{       
