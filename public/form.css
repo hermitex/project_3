@@ -112,6 +112,9 @@ padding-left: 20px;
   
     margin: auto;
 }
+.container h1{
+  font-size: 2rem;
+}
 .mt{
     margin-top: 7rem;
 }
