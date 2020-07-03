@@ -188,6 +188,11 @@ a.block{
   }
   #comingsoon {
     padding: 1px;
+ 
+   
+  }
+  .light-blue{
+    color: yellow !important;
   }
   #countdown {
     display: flex;
