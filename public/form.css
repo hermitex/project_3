@@ -130,7 +130,9 @@ form{
 form label{
     color: #17a2b8;
 }
-
+h1{
+    font-size:1.3rem !important;
+}
 /* footer */
 .footer{
     position: fixed;
