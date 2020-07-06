@@ -111,17 +111,19 @@ padding-left: 20px;
 }
 /* END HEADER */
 
-.container{
+.container-fluid{
     display: flex;
-    flex-direction: column;
-  
+    flex-direction: column;  
+    width: 100vw;
+    height: 100vh;
     margin: auto;
 }
-.container h1{
-  font-size: 2rem;
+.container-fluid h1{
+padding-top: 0.5rem;
 }
 .mt{
-    margin-top: 7rem;
+    margin-top: 5rem;
+ 
 }
 form{
     min-width: 18rem !important;
@@ -129,6 +131,9 @@ form{
     margin: auto;
     margin-top: 1rem;
    margin-bottom: 5rem !important;
+   border: 0.5px solid #17a2b8;
+   padding: 0.5rem;
+   border-radius: 10px;
 }
 
 form label{
