@@ -264,7 +264,7 @@ margin: auto;
 }
 .festival-info>div{
   width: 90vw;
-    height: 45vh;
+    height: 50vh;
     margin: 0 auto;
     background-color: transparent;
     border: 1px dashed #17a2b8;
@@ -277,7 +277,7 @@ margin: auto;
     /* margin-bottom: 1rem !important; */
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 .festival-info button.block {
     display: block !important;
