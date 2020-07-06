@@ -207,7 +207,7 @@ h1{
     background-color: #0a0a0a; 
     z-index: 1 !important; 
     cursor: pointer; 
-    opacity: 0.65;
+    /* opacity: 0.65; */
 
     }
 
@@ -222,6 +222,7 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
         padding: 0 !important;
         overflow-x: hidden !important;
         opacity: 0.95;
