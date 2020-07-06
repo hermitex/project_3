@@ -28,7 +28,7 @@ body{
 }
 .header ul a{
     display: block;
-    padding: 20px;
+    padding: 1rem;
     text-decoration: none;
     color: #17a2b8;
 }
@@ -49,7 +49,7 @@ padding-left: 20px;
     transition: max-height 1s ease-out;
 }
 .header .menu-icon{   
-    padding: 28px 20px;
+    padding: 20px 20px;
     position: relative;
     float: right;
     cursor: pointer;
