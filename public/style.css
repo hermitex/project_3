@@ -129,9 +129,9 @@ padding-left: 20px;
     justify-content:center;
     text-align: center;
     color: #ccc;
-  margin: auto;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+    margin: auto;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 .jumbthron{
     position: relative;
@@ -238,14 +238,14 @@ a.block{
 
 /* START CONTAINER 2*/
 .container2{
-height: 100vh;
-margin-top: 1rem;
-width: 100vw;
-margin: auto;
+    height: 100vh;
+    margin-top: 1rem;
+    width: 100vw;
+    margin: auto;
 
 }
 .festival-info{
-  background-color: #0a0a0a;
+    background-color: #0a0a0a;
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
@@ -258,10 +258,10 @@ margin: auto;
 }
 .festival-info>div{
     width: 90vw;
-      height: 50vh;
-      margin: 0 auto;
-      background-color: transparent;
-      border: 1px dashed #17a2b8;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px dashed #17a2b8;
       
   }
 
