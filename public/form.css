@@ -3,6 +3,8 @@ body{
     background-color: #0a0a0a;
     font-family: 'B612', sans-serif;
 }
+
+/* START HEADER */
 .logo img{
     width: 5.5rem;
 }
@@ -107,6 +109,8 @@ padding-left: 20px;
     top: 0;
     
 }
+/* END HEADER */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -133,6 +137,7 @@ form label{
 h1{
     font-size:1.3rem !important;
 }
+
 /* footer */
 .footer{
     position: fixed;
@@ -141,8 +146,9 @@ h1{
     bottom: 0;
     background-color: #0a0a0a;
     opacity: 0.95;
-    border-top: 0.1px solid #17a2b8;
+    /* border-top: 0.1px solid #17a2b8; */
     padding: 0;
+    padding-top: 0.5rem;
     z-index: 20;
     margin-top: 1rem;
 }
@@ -166,6 +172,8 @@ h1{
  }
 /* footer */
 
+
+/* MEDIA QUERIES */
 @media screen and (min-width: 48em){
     .header li{
         float: left;
@@ -215,3 +223,4 @@ h1{
     }
 
 }
+/* MEDIA QUERIES */
