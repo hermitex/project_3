@@ -141,7 +141,8 @@ padding-left: 20px;
 .profile{
     border: solid teal 0.1px;
     border-radius: 10px;
-    margin: 0.2rem;
+    margin: 1rem;
+
 }
 #bio-content>p{
     color: #fff !important;
