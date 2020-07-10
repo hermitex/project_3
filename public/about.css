@@ -162,6 +162,11 @@ width: 100%;
     line-height: 2rem;
     /* height: 100vh; */
 }
+#carouselExampleControls .bg-dark{
+   border-radius: 10px;
+   border: 0.1px solid #17a2b8;
+   text-align: center;
+}
 /* footer */
 
 .footer{
@@ -249,6 +254,9 @@ width: 100%;
     } */
     #about{
         margin-top: 5rem;
+    }
+   #carouselExampleControls .bg-dark{
+        font-size: 3rem;
     }
 
 }
