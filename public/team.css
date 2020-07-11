@@ -151,6 +151,10 @@ margin-top: 10rem !important;
 .card-img{
     margin-top: 4rem !important;
 }
+#avatar{
+    width: 7rem;
+    height:  7rem;
+}
 
 /* footer */
 
