@@ -246,6 +246,7 @@ margin-top: 10rem !important;
         font-size: 2.5rem;
     }
     .container{
+        margin: auto;
         margin-left: 3rem !important;
         margin-right: 3rem !important;
     
