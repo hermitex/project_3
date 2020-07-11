@@ -262,17 +262,16 @@ margin-top: 10rem !important;
     width: 15rem !important;
     font-size: 1rem;
 }
+ 
+
+   
+}
+
+@media  screen  and (min-width: 440px) and (max-width: 760px){
+
     .col.profile{      
-     display: block !important;
-     min-width: 85vw !important;
-    }
-
-    @media  screen  and (min-width: 440px) and (max-width: 760px){
-
-        #carouselExampleControls{      
-           height: 30.5rem !important;
-           /* display: none !important; */
-        }
-    }
+        display: block !important;
+        min-width: 85vw !important;
+       }
 }
 /* MEDIA QUERIES */
