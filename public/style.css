@@ -199,6 +199,7 @@ a.block{
   }
   .light-blue{
     color: yellow !important;
+    font-size: 1rem;
   }
   #countdown {
     display: flex;
@@ -444,5 +445,8 @@ color: #17a2b8;
         border: 1px dashed #17a2b8;
         
     }
+    .light-blue{
+        font-size: 3rem;
+      }
 }
 /* MEDIA QUERIES */
