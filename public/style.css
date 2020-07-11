@@ -86,7 +86,7 @@ padding-left: 20px;
     display: none;
 }
 .header .menu-btn:checked ~ .menu{
-    max-height: 240px;
+    max-height: 50rem;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon{
