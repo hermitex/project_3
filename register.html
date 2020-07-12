@@ -39,7 +39,6 @@
 <body>
 
     <div class="container-fluid">
-
         <div class="mt">
             <h1 id="days-to-go" class="text-center bg-dark p-1"
                 style="color: yellow; width: 15rem; border-radius: 10px; margin: auto;"></h1>
@@ -47,7 +46,6 @@
         </div>
 
         <form>
-
             <div class="form-group">
                 <label for="first-name">First Name</label>
                 <input type="text" id="first-name" class="form-control" aria-describedby="first-name"
@@ -98,7 +96,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script>
-
         // COUNT DOWN
 
         const daysToGo = document.getElementById('days-to-go');
@@ -106,11 +103,7 @@
 
         //time to count down to
         const lauchTime = new Date("Aug 5, 2020 18:00:00").getTime();
-
-
-
         const showCountDown = setInterval(() => {
-
             //get current time
             const now = new Date().getTime();
             //get time remaining till launch time
@@ -129,11 +122,8 @@
                 countDown.style.display = "none";
                 document.getElementById("comingsoon").style.color = "#17a2b8";
                 document.getElementById("comingsoon").innerHTML = "Lauched!";
-
             }
         }, 1000);
-
-
     </script>
 </body>
 
