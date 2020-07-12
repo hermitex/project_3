@@ -315,9 +315,10 @@ a.block{
 }
 /* START CONTAINER 2*/ 
 #news{
-    margin-left: 1rem;
-    margin-right: 1rem;
+  width: 95vw;
+  margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0.1rem;
 }
 #news .card-body{
     color: #fff;
