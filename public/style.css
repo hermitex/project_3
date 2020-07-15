@@ -147,6 +147,7 @@ a.block{
 .festival-info{
     background-color: #0a0a0a;
     display: flex;
+    width: 100vw;
     flex-direction: column;
     margin-bottom: 2rem;
     
@@ -156,22 +157,35 @@ a.block{
     height: 100%;
     
 }
-.festival-info>div{
-    width: 90vw;
-    height: 50vh;
+.festival-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw !important;
+    
+}
+
+.festival-info .row{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
+
+}
+.festival-info .row>div.col{  
+    width: 50vw;
     background-color: transparent;
     border: 1px dashed #17a2b8;
-      
+    margin: 0.5rem;
   }
 
 .festival-info p{    
-   
+  
     max-width: 100%;
     margin: auto;
     /* margin-bottom: 1rem !important; */
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding: 0.5rem;
+   
     line-height: 1.8rem;
 }
 .festival-info button.block {
@@ -292,11 +306,10 @@ a.block{
         margin-top: 7rem;
     }
     .festival-info>div{
-        max-width: 60vw;
+        /* max-width: 60vw;
         height: 45vh;
         margin: 0 auto;
-        background-color: transparent;
-        border: 1px dashed #17a2b8;
+        */
         
     }
     .light-blue{
