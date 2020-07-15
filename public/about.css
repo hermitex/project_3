@@ -19,15 +19,20 @@ overflow-x: hidden;
     /* background-color: red; */
  
 }
+#carouselExampleControls .bg-dark{
+    padding: 0.1px !important;
+}
+
 .card-img-overlay {
     height: 30rem !important;
-    margin-bottom: 0;
-   
+    margin: 0 auto;
+    width: 25rem;
 }
 
 .mt{
     position: relative;
     top: 4.4rem;
+    padding: 0 !important;
 }
 .card-img-opacity{
     opacity: 0.8;
@@ -54,8 +59,11 @@ width: 100%;
     border: 0.1px solid #17a2b8;
     border-radius: 1rem !important;
     line-height: 2rem;
-    /* height: 100vh; */
+   
 }
+.about p{  
+    padding: 0.5rem;
+ }
 
 #carouselExampleControls .bg-dark{
    border-radius: 10px;
@@ -88,7 +96,7 @@ width: 100%;
         margin-top: 5rem;
     }
    #carouselExampleControls .bg-dark{
-        font-size: 2.5rem;
+        font-size: 2rem;        
     }
 
 }
