@@ -213,6 +213,7 @@ a.block{
  
 }
 .card{
+    min-width: 15rem;
     margin-bottom: 1rem;
 }
 
