@@ -27,8 +27,7 @@ overflow-x: hidden;
     opacity: 0.90;
     transition: all 0.2s ease-in-out;
 }
-.profile img:hover{
-  
+.profile img:hover{  
     opacity: 1;
 }
 .profile{
@@ -39,9 +38,20 @@ overflow-x: hidden;
 #bio-content>p{
     color: #fff !important;
 }
-.card-img-overlay{
-margin-top: 10rem !important;
+
+.card-img-overlay {
+    height: 30 !important;
+    width: 20rem; 
+    margin: 0 auto;
+
 }
+.card-img-overlay #small-width{
+    width: 20rem !important;
+    margin: 11rem auto 0 auto;
+    padding: 0 !important;
+   
+}
+
 .card-img{
     margin-top: 2.5rem !important;
 }
@@ -72,9 +82,9 @@ margin-top: 10rem !important;
 
 }
 @media  screen  and (max-width: 468px){
-#small-width{
-    width: 15rem !important;
+    .card-img-overlay #small-width{
     font-size: 1rem;
+    width: 10rem !important;
 }   
 }
 
