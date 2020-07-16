@@ -15,9 +15,7 @@ overflow-x: hidden;
 
 #carouselExampleControls{
     top: 2.5rem;
-    height: 100% !important;
-    /* background-color: red; */
- 
+    height: 50% !important;
 }
 #carouselExampleControls .bg-dark{
     padding: 0.1px !important;
@@ -26,7 +24,11 @@ overflow-x: hidden;
 .card-img-overlay {
     height: 30rem !important;
     margin: 0 auto;
-    width: 25rem;
+ 
+}
+.carousel-inner{
+    height: 100% !important;
+   margin: auto;
 }
 
 .mt{
@@ -39,7 +41,8 @@ overflow-x: hidden;
 
 }
 #slide-image{
-    height: 30rem;
+    height:100%;
+
 }
 .slide-image img{
 
@@ -76,21 +79,6 @@ width: 100%;
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 48em){
-    .header li{
-        float: left;
-    }
-
-    .header li a{
-        padding:  20px 38px;
-    }
-    .header .menu{
-        clear: none;
-        float: right;
-        max-height: none;
-    }
-    .header .menu-icon{
-        display: none;
-    }
 
     #about{
         margin-top: 5rem;
@@ -102,16 +90,6 @@ width: 100%;
 }
 @media  screen  and (max-width: 765px){
 
-    #carouselExampleControls{      
-       height: 18.5rem !important;
-    }
 
-    @media  screen  and (min-width: 440px) and (max-width: 760px){
-
-        #carouselExampleControls{      
-           height: 30.5rem !important;
-
-        }
-    }
 }
 /* MEDIA QUERIES */
