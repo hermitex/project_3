@@ -130,6 +130,9 @@ a.block{
     margin-top: 3.8rem; 
 
 }
+.row{
+    margin: 0 !important;
+}
 
   #info .row>div{  
   background-color: #0a0a0a;
